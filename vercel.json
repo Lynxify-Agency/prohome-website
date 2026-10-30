@@ -1,0 +1,217 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/aciu",
+      "destination": "/aciu.html"
+    },
+    {
+      "source": "/apie-mus",
+      "destination": "/apie-mus.html"
+    },
+    {
+      "source": "/en",
+      "destination": "/en.html"
+    },
+    {
+      "source": "/en/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/en/book-consultation",
+      "destination": "/visit.html"
+    },
+    {
+      "source": "/en/professionals",
+      "destination": "/professionals.html"
+    },
+    {
+      "source": "/en/projects",
+      "destination": "/projects.html"
+    },
+    {
+      "source": "/en/projects/apartment-building-london-chelsea-creek",
+      "destination": "/apartment-building-london-chelsea-creek.html"
+    },
+    {
+      "source": "/en/projects/apartment-london-5-lillie-square",
+      "destination": "/apartment-london-5-lillie-square.html"
+    },
+    {
+      "source": "/en/projects/new-development-london-190-strand",
+      "destination": "/new-development-london-190-strand.html"
+    },
+    {
+      "source": "/en/projects/private-house-london-broadwalk-south",
+      "destination": "/private-house-london-broadwalk-south.html"
+    },
+    {
+      "source": "/en/projects/residential-estate-london-millennium-no2",
+      "destination": "/residential-estate-london-millennium-no2.html"
+    },
+    {
+      "source": "/en/showroom",
+      "destination": "/showroom.html"
+    },
+    {
+      "source": "/en/solutions",
+      "destination": "/automation.html"
+    },
+    {
+      "source": "/en/solutions/aftercare-support",
+      "destination": "/aftercare-support.html"
+    },
+    {
+      "source": "/en/solutions/audio-video",
+      "destination": "/audio-video.html"
+    },
+    {
+      "source": "/en/solutions/climate-air-quality",
+      "destination": "/climate-air-quality.html"
+    },
+    {
+      "source": "/en/solutions/home-cinema",
+      "destination": "/home-cinema.html"
+    },
+    {
+      "source": "/en/solutions/motorised-shading",
+      "destination": "/motorised-shading.html"
+    },
+    {
+      "source": "/en/solutions/network-wifi",
+      "destination": "/network-wifi.html"
+    },
+    {
+      "source": "/en/solutions/security-access-control",
+      "destination": "/security-access-control.html"
+    },
+    {
+      "source": "/en/solutions/smart-lighting",
+      "destination": "/smart-lighting.html"
+    },
+    {
+      "source": "/en/technologies",
+      "destination": "/technologies.html"
+    },
+    {
+      "source": "/en/technologies/control4",
+      "destination": "/automation.html"
+    },
+    {
+      "source": "/en/thank-you",
+      "destination": "/thank-you.html"
+    },
+    {
+      "source": "/kaip-dirbame",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/konsultacija",
+      "destination": "/konsultacija.html"
+    },
+    {
+      "source": "/kontaktai",
+      "destination": "/konsultacija.html"
+    },
+    {
+      "source": "/profesionalams",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/projektai",
+      "destination": "/projects.html"
+    },
+    {
+      "source": "/projektai/butas-londonas-5-lillie-square",
+      "destination": "/butas-londonas-5-lillie-square.html"
+    },
+    {
+      "source": "/projektai/daugiabutis-londonas-chelsea-creek",
+      "destination": "/daugiabutis-londonas-chelsea-creek.html"
+    },
+    {
+      "source": "/projektai/gyvenamasis-kvartalas-londonas-millennium-no2",
+      "destination": "/gyvenamasis-kvartalas-londonas-millennium-no2.html"
+    },
+    {
+      "source": "/projektai/naujos-statybos-projektas-londonas-190-strand",
+      "destination": "/naujos-statybos-projektas-londonas-190-strand.html"
+    },
+    {
+      "source": "/projektai/privatus-namas-londonas-broadwalk-south",
+      "destination": "/privatus-namas-londonas-broadwalk-south.html"
+    },
+    {
+      "source": "/salonas",
+      "destination": "/showroom.html"
+    },
+    {
+      "source": "/sprendimai",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/apsauga-ir-prieigos-kontrole",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/garsas-ir-vaizdas",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/ismanusis-apsvietimas",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/klimatas-ir-oro-kokybe",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/motorizuotos-uzuolaidos",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/namu-kinas",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/prieziura-ir-pagalba",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/sprendimai/tinklas-ir-wifi",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/technologijos",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/technologijos/control4",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/technologijos/knx",
+      "destination": "/sprendimai.html"
+    },
+    {
+      "source": "/:prefix*/:dir(img|fonts|video|tour)/:rest*",
+      "destination": "/:dir/:rest*"
+    },
+    {
+      "source": "/:prefix*/:page([a-z0-9-]+\\.html)",
+      "destination": "/:page"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:dir(img|fonts|video|tour)/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
